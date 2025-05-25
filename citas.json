@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "nombre": "Benito",
+    "edad": "5",
+    "tipo": "perro",
+    "color": "negro",
+    "enfermedad": "vomitos"
+  },
+  {
+    "nombre": "Brownie",
+    "edad": "2",
+    "tipo": "gato",
+    "color": "blanco",
+    "enfermedad": "fractura"
+  }
+]

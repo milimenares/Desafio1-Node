@@ -1,5 +1,7 @@
-import fs from 'fs'
+import { registrar } from './operaciones.mjs'
 
-const citas = []
+const [operacion, nombre, edad, tipo, color, enfermedad] = process.argv.slice(2)
 
-fs.writeFileSync('citas.json', JSON.stringify(citas))
+if(operacion === 'registrar') {
+    registrar(nombre, edad, tipo, color, enfermedad)
+}
