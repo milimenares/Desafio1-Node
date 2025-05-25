@@ -13,4 +13,9 @@ const registrar = (nombre, edad, tipo, color, enfermedad) => {
     }
 }
 
-export { registrar }
+const leer = () => {
+    const data = JSON.parse(fs.readFileSync('citas.json', 'utf-8'))
+    console.log(data)
+}
+
+export { registrar, leer }
